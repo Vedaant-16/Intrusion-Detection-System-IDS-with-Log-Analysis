@@ -1,0 +1,322 @@
+[
+    {
+        "type": "Brute Force Attack",
+        "ip": "192.168.1.50",
+        "timestamp": "2026-01-17T21:33:39.386861"
+    },
+    {
+        "type": "Privilege Escalation",
+        "user": "aryan",
+        "log": "Jan 16 sudo: aryan : COMMAND=/bin/bash",
+        "timestamp": "2026-01-17T21:33:39.386887"
+    },
+    {
+        "type": "Possible Malware Execution",
+        "log": "Jan 16 CRON[222]: CMD (/tmp/.xmr/miner)",
+        "timestamp": "2026-01-17T21:33:39.386893"
+    },
+    {
+        "type": "Database Destructive Query",
+        "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+        "timestamp": "2026-01-17T21:33:39.386897"
+    },
+    {
+        "type": "Correlated Intrusion",
+        "confidence": "HIGH",
+        "os_event": {
+            "type": "Brute Force Attack",
+            "ip": "192.168.1.50",
+            "timestamp": "2026-01-17T21:33:39.386861"
+        },
+        "db_event": {
+            "type": "Database Destructive Query",
+            "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+            "timestamp": "2026-01-17T21:33:39.386897"
+        }
+    },
+    {
+        "type": "Correlated Intrusion",
+        "confidence": "HIGH",
+        "os_event": {
+            "type": "Privilege Escalation",
+            "user": "aryan",
+            "log": "Jan 16 sudo: aryan : COMMAND=/bin/bash",
+            "timestamp": "2026-01-17T21:33:39.386887"
+        },
+        "db_event": {
+            "type": "Database Destructive Query",
+            "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+            "timestamp": "2026-01-17T21:33:39.386897"
+        }
+    },
+    {
+        "type": "Correlated Intrusion",
+        "confidence": "HIGH",
+        "os_event": {
+            "type": "Possible Malware Execution",
+            "log": "Jan 16 CRON[222]: CMD (/tmp/.xmr/miner)",
+            "timestamp": "2026-01-17T21:33:39.386893"
+        },
+        "db_event": {
+            "type": "Database Destructive Query",
+            "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+            "timestamp": "2026-01-17T21:33:39.386897"
+        }
+    },
+    {
+        "type": "Brute Force Attack",
+        "ip": "192.168.1.50",
+        "timestamp": "2026-01-17T21:49:07.414095"
+    },
+    {
+        "type": "Privilege Escalation",
+        "user": "aryan",
+        "log": "Jan 16 sudo: aryan : COMMAND=/bin/bash",
+        "timestamp": "2026-01-17T21:49:07.414135"
+    },
+    {
+        "type": "Possible Malware Execution",
+        "log": "Jan 16 CRON[222]: CMD (/tmp/.xmr/miner)",
+        "timestamp": "2026-01-17T21:49:07.414147"
+    },
+    {
+        "type": "Database Destructive Query",
+        "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+        "timestamp": "2026-01-17T21:49:07.414154"
+    },
+    {
+        "type": "Correlated Intrusion",
+        "confidence": "HIGH",
+        "os_event": {
+            "type": "Brute Force Attack",
+            "ip": "192.168.1.50",
+            "timestamp": "2026-01-17T21:49:07.414095"
+        },
+        "db_event": {
+            "type": "Database Destructive Query",
+            "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+            "timestamp": "2026-01-17T21:49:07.414154"
+        }
+    },
+    {
+        "type": "Correlated Intrusion",
+        "confidence": "HIGH",
+        "os_event": {
+            "type": "Privilege Escalation",
+            "user": "aryan",
+            "log": "Jan 16 sudo: aryan : COMMAND=/bin/bash",
+            "timestamp": "2026-01-17T21:49:07.414135"
+        },
+        "db_event": {
+            "type": "Database Destructive Query",
+            "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+            "timestamp": "2026-01-17T21:49:07.414154"
+        }
+    },
+    {
+        "type": "Correlated Intrusion",
+        "confidence": "HIGH",
+        "os_event": {
+            "type": "Possible Malware Execution",
+            "log": "Jan 16 CRON[222]: CMD (/tmp/.xmr/miner)",
+            "timestamp": "2026-01-17T21:49:07.414147"
+        },
+        "db_event": {
+            "type": "Database Destructive Query",
+            "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+            "timestamp": "2026-01-17T21:49:07.414154"
+        }
+    },
+    {
+        "type": "Brute Force Attack",
+        "ip": "192.168.1.50",
+        "timestamp": "2026-01-17T21:49:43.643364"
+    },
+    {
+        "type": "Privilege Escalation",
+        "user": "aryan",
+        "log": "Jan 16 sudo: aryan : COMMAND=/bin/bash",
+        "timestamp": "2026-01-17T21:49:43.643394"
+    },
+    {
+        "type": "Possible Malware Execution",
+        "log": "Jan 16 CRON[222]: CMD (/tmp/.xmr/miner)",
+        "timestamp": "2026-01-17T21:49:43.643402"
+    },
+    {
+        "type": "Database Destructive Query",
+        "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+        "timestamp": "2026-01-17T21:49:43.643405"
+    },
+    {
+        "type": "Correlated Intrusion",
+        "confidence": "HIGH",
+        "os_event": {
+            "type": "Brute Force Attack",
+            "ip": "192.168.1.50",
+            "timestamp": "2026-01-17T21:49:43.643364"
+        },
+        "db_event": {
+            "type": "Database Destructive Query",
+            "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+            "timestamp": "2026-01-17T21:49:43.643405"
+        }
+    },
+    {
+        "type": "Correlated Intrusion",
+        "confidence": "HIGH",
+        "os_event": {
+            "type": "Privilege Escalation",
+            "user": "aryan",
+            "log": "Jan 16 sudo: aryan : COMMAND=/bin/bash",
+            "timestamp": "2026-01-17T21:49:43.643394"
+        },
+        "db_event": {
+            "type": "Database Destructive Query",
+            "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+            "timestamp": "2026-01-17T21:49:43.643405"
+        }
+    },
+    {
+        "type": "Correlated Intrusion",
+        "confidence": "HIGH",
+        "os_event": {
+            "type": "Possible Malware Execution",
+            "log": "Jan 16 CRON[222]: CMD (/tmp/.xmr/miner)",
+            "timestamp": "2026-01-17T21:49:43.643402"
+        },
+        "db_event": {
+            "type": "Database Destructive Query",
+            "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+            "timestamp": "2026-01-17T21:49:43.643405"
+        }
+    },
+    {
+        "type": "Brute Force Attack",
+        "ip": "192.168.1.50",
+        "timestamp": "2026-01-17T21:55:08.170430"
+    },
+    {
+        "type": "Privilege Escalation",
+        "user": "aryan",
+        "log": "Jan 16 sudo: aryan : COMMAND=/bin/bash",
+        "timestamp": "2026-01-17T21:55:08.170506"
+    },
+    {
+        "type": "Possible Malware Execution",
+        "log": "Jan 16 CRON[222]: CMD (/tmp/.xmr/miner)",
+        "timestamp": "2026-01-17T21:55:08.170514"
+    },
+    {
+        "type": "Database Destructive Query",
+        "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+        "timestamp": "2026-01-17T21:55:08.170517"
+    },
+    {
+        "type": "Correlated Intrusion",
+        "confidence": "HIGH",
+        "os_event": {
+            "type": "Brute Force Attack",
+            "ip": "192.168.1.50",
+            "timestamp": "2026-01-17T21:55:08.170430"
+        },
+        "db_event": {
+            "type": "Database Destructive Query",
+            "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+            "timestamp": "2026-01-17T21:55:08.170517"
+        }
+    },
+    {
+        "type": "Correlated Intrusion",
+        "confidence": "HIGH",
+        "os_event": {
+            "type": "Privilege Escalation",
+            "user": "aryan",
+            "log": "Jan 16 sudo: aryan : COMMAND=/bin/bash",
+            "timestamp": "2026-01-17T21:55:08.170506"
+        },
+        "db_event": {
+            "type": "Database Destructive Query",
+            "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+            "timestamp": "2026-01-17T21:55:08.170517"
+        }
+    },
+    {
+        "type": "Correlated Intrusion",
+        "confidence": "HIGH",
+        "os_event": {
+            "type": "Possible Malware Execution",
+            "log": "Jan 16 CRON[222]: CMD (/tmp/.xmr/miner)",
+            "timestamp": "2026-01-17T21:55:08.170514"
+        },
+        "db_event": {
+            "type": "Database Destructive Query",
+            "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+            "timestamp": "2026-01-17T21:55:08.170517"
+        }
+    },
+    {
+        "type": "Brute Force Attack",
+        "ip": "192.168.1.50",
+        "timestamp": "2026-01-17T21:59:52.816113"
+    },
+    {
+        "type": "Privilege Escalation",
+        "user": "aryan",
+        "log": "Jan 16 sudo: aryan : COMMAND=/bin/bash",
+        "timestamp": "2026-01-17T21:59:52.816158"
+    },
+    {
+        "type": "Possible Malware Execution",
+        "log": "Jan 16 CRON[222]: CMD (/tmp/.xmr/miner)",
+        "timestamp": "2026-01-17T21:59:52.816164"
+    },
+    {
+        "type": "Database Destructive Query",
+        "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+        "timestamp": "2026-01-17T21:59:52.816167"
+    },
+    {
+        "type": "Correlated Intrusion",
+        "confidence": "HIGH",
+        "os_event": {
+            "type": "Brute Force Attack",
+            "ip": "192.168.1.50",
+            "timestamp": "2026-01-17T21:59:52.816113"
+        },
+        "db_event": {
+            "type": "Database Destructive Query",
+            "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+            "timestamp": "2026-01-17T21:59:52.816167"
+        }
+    },
+    {
+        "type": "Correlated Intrusion",
+        "confidence": "HIGH",
+        "os_event": {
+            "type": "Privilege Escalation",
+            "user": "aryan",
+            "log": "Jan 16 sudo: aryan : COMMAND=/bin/bash",
+            "timestamp": "2026-01-17T21:59:52.816158"
+        },
+        "db_event": {
+            "type": "Database Destructive Query",
+            "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+            "timestamp": "2026-01-17T21:59:52.816167"
+        }
+    },
+    {
+        "type": "Correlated Intrusion",
+        "confidence": "HIGH",
+        "os_event": {
+            "type": "Possible Malware Execution",
+            "log": "Jan 16 CRON[222]: CMD (/tmp/.xmr/miner)",
+            "timestamp": "2026-01-17T21:59:52.816164"
+        },
+        "db_event": {
+            "type": "Database Destructive Query",
+            "query": "2026-01-16 root@localhost Query DROP TABLE users;",
+            "timestamp": "2026-01-17T21:59:52.816167"
+        }
+    }
+]

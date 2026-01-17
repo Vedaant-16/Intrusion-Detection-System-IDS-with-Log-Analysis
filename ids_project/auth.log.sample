@@ -1,0 +1,6 @@
+Jan 16 sshd[123]: Failed password for root from 192.168.1.50
+Jan 16 sshd[123]: Failed password for root from 192.168.1.50
+Jan 16 sshd[123]: Failed password for root from 192.168.1.50
+Jan 16 sudo: aryan : COMMAND=/bin/bash
+Jan 16 CRON[222]: CMD (/tmp/.xmr/miner)
+

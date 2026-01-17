@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IDS SOC Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header class="topbar">
+    <h1>🛡 IDS Security Operations Center</h1>
+    <div class="top-info">
+        <span id="lastUpdated">Last update: --</span>
+        <span class="status online">LIVE</span>
+    </div>
+</header>
+
+<main class="container">
+
+    <!-- KPI SECTION -->
+    <section class="kpis">
+        <div class="kpi">
+            <h3>Total Alerts</h3>
+            <p id="totalAlerts">0</p>
+        </div>
+        <div class="kpi high">
+            <h3>High Severity</h3>
+            <p id="highAlerts">0</p>
+        </div>
+        <div class="kpi medium">
+            <h3>Medium Severity</h3>
+            <p id="mediumAlerts">0</p>
+        </div>
+    </section>
+
+    <!-- FILTERS -->
+    <section class="filters">
+        <label>Filter by Type:</label>
+        <select id="typeFilter">
+            <option value="ALL">All</option>
+            <option value="Brute Force Attack">Brute Force</option>
+            <option value="Privilege Escalation">Privilege Escalation</option>
+            <option value="Possible Malware Execution">Malware</option>
+            <option value="Database Destructive Query">Database</option>
+            <option value="Correlated Intrusion">Correlated</option>
+        </select>
+    </section>
+
+    <!-- ALERTS -->
+    <section>
+        <h2>Incident Timeline</h2>
+        <div id="alerts" class="alerts"></div>
+    </section>
+
+</main>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
+
